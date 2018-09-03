@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright"
+    android:padding="15dp"
+    android:gravity="center_vertical"
+    >
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sort by"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/white"
+            />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descending"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/Descend_Button"
+            android:onClick="onRadioButtonClicked"
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ascending"
+            android:id="@+id/Ascend_Button"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:onClick="onRadioButtonClicked"
+            />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set search range(optional) $/oz"
+        android:paddingTop="5dp"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:hint="Min price ($/oz) ex. 0.55"
+        android:textColor="@color/white"
+        android:id="@+id/MinPrice"
+        android:textStyle="bold"
+        android:inputType="numberDecimal"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:hint="Max price ($/oz) ex. 0.65"
+        android:textColor="@color/white"
+        android:id="@+id/MaxPrice"
+        android:textStyle="bold"
+        android:inputType="numberDecimal"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:id="@+id/SearchPrice_Button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        />
+</LinearLayout>

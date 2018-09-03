@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+
+    tools:context="com.example.will.a3a04_project.MainActivity"
+    android:background="@drawable/mainbg"
+    >
+
+    <TextView
+        android:text="BoozeBud"
+        android:id="@+id/Logo_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"
+        android:layout_marginTop="30dp"
+        android:textSize="40dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        />
+
+
+    <Button
+        android:text="Sign In"
+        android:layout_marginTop="270dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:onClick="ToLogin"
+        android:id="@+id/LogIn_Button"
+
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <Button
+        android:text="Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:onClick="ToRegister"
+        android:id="@+id/Register_Button"
+         />
+
+
+</LinearLayout>

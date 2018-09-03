@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.will.a3a04_project">
+
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="BoozeBud"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LogIn" />
+        <activity android:name=".Register" />
+        <activity android:name=".UserMain" />
+        <activity android:name=".UserInfoMenu" />
+        <activity android:name=".PriceDisplay" />
+        <activity
+            android:name=".PopPriceOption"
+            android:theme="@style/AppTheme.CustomPopUpTheme" />
+        <activity
+            android:name=".PopGeoOption"
+            android:theme="@style/AppTheme.CustomPopUpTheme" />
+        <activity
+            android:name=".PopNtnOption"
+            android:theme="@style/AppTheme.CustomPopUpTheme" />
+        <activity android:name=".GeoDisplay" />
+        <activity android:name=".NtnDisplay" />
+        <activity android:name=".AdvanceSort" />
+        <activity android:name=".Result"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "134444638162",
+    "firebase_url": "https://boozebud-3c16d.firebaseio.com",
+    "project_id": "boozebud-3c16d",
+    "storage_bucket": "boozebud-3c16d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134444638162:android:f6d14480feddd08c",
+        "android_client_info": {
+          "package_name": "com.example.will.a3a04_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134444638162-ga1f5ollnongd1jhj0af77e9qmkg7b28.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_slnmQwLvtxeWmSmatpffVBPlh4dF3WI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
